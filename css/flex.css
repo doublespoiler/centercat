@@ -1,0 +1,44 @@
+.wrapper{
+  width:auto;
+  border: 2px solid black;
+  margin:auto;
+}
+
+.container{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-evenly;
+  align-content: flex-start;
+  align-items:flex-end;
+  gap:10px 20px;
+}
+
+.item{
+  width:300px;
+}
+
+.size-small{
+  height: 500px;
+  flex: 2 4 10%;
+  background-color: pink;
+}
+
+.size-medium{
+  height: 500px;
+  flex:3 3 20%;
+  background-color: green;
+}
+
+.size-large{
+  height: 500px;
+  flex: 4 2 30%;
+  background-color:sandybrown;
+
+}
+
+.flex-start{
+  align-self:flex-start;
+  color:white;
+  background-color:black;
+  width:30%;
+}
