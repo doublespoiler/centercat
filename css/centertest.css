@@ -1,0 +1,41 @@
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: #cc0000;
+  text - align: center;
+}
+
+#wrapper { 
+  width: 1280px;
+  margin:100px auto ;
+}
+
+#column2 {
+  float: left;
+  background - image: url("../img/gray.png");
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  height: 682px;
+  width: 460px;
+}
+
+#column1 {
+  float: left;
+  color: #333;
+  border: 1px solid # ccc;
+  background: #F2F2E6;
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  height: 500px;
+  width: 439px;
+  display: inline;
+  position: relative;
+}
+
+#column_container {
+  width: 959px;
+  margin: 0 auto;
+}
