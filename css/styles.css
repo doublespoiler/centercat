@@ -1,0 +1,37 @@
+.wrapper{
+  width:80%;
+  margin:auto;
+  background-color:wheat;
+  border:5px solid brown;
+}
+
+.content{
+  width:600px;
+  margin: 0 auto;
+  background-color:aqua;
+  border: 2px solid black;
+}
+
+.leftdiv{
+  width:200px;
+  float: left;
+  background-color:pink;
+  border: 2px solid purple;
+  /* margin-right: 5px; */
+}
+
+.my-class{
+  width:200px;
+  float: left;
+  /* display:inline; */
+  /* position:relative; */
+  background-color:red;
+  border:2px solid blue;
+  /* margin-left:5px; */
+}
+
+
+
+
+
+
